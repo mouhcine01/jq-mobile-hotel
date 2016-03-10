@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reservation</title>
+
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    
+    <script src="jquery.js"></script> 
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css"/> 
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+     
+    
+
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="header" data-add-back-btn ="true">
+        <h3>Réservation</h3>
+  </div>
+
+  <div data-role="main" class="ui-content">
+
+    <label>Nom</label>
+    <input type="text" name="textinput-1" id="textinput" placeholder="nom" >
+
+    <label>Prenom</label>
+    <input type="text" name="textinput-2" id="textinput" placeholder="prénom" >
+
+    <label>Tel</label>
+    <input type="tel" name="tel" id="textinput" placeholder="tel">
+
+
+    <label for="select-choice-a" class="select">Chambre</label>
+    <select name="select-choice-a" id="select-choice-a" data-native-menu="false">
+    <option>la nature de chambre</option>
+    <option >Chambre Single</option>
+    <option >Chambre Double</option>
+    </select>
+
+    <label for="select-choice-1" class="select">Nombre Personnes</label>
+    <select name="select-choice-1" id="select-choice-1">
+    <option >1</option>
+    <option >2</option>
+    <option >3</option>
+    <option >4</option>
+    </select>
+   
+    <label>Date Arrivée</label>
+    <input type="date" name="date-a" id="textinput">
+    <label>Date Départ</label>
+    <input type="date" name="date-d" id="textinput">
+    
+    <a href="#" class="ui-btn" >Réserver</a>
+
+  </div>
+  <div data-role="footer" data-position="fixed">
+<div data-role="navbar" data-iconpos="bottom">
+            <ul>
+              <li><a href="presentation.html" data-icon="home">Présentation</a></li>
+              <li><a href="chambre.html" data-icon="grid">Chambres</a></li>
+              <li><a href="reservation.html" data-icon="star">Réservation</a></li>
+              <li><a href="contact.html" data-icon="phone">Contact</a></li>
+           </ul>
+           </div>
+           </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+
+
+#footer
+{
+	 position:absolute;
+     bottom:0;
+     width:100%;
+     padding-top:10px;
+     height:50px;
+
+}
+
+.img-chmbr, .chambre-desc {
+  display: inline-block;
+  float: left;
+}
+
+.img-chmbr {
+  width: 45%;
+
+}
+
+.chambre-desc {
+  width: 50%;
+  padding-left: 15px;
+}
+
+.room {
+  display: block;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+#img
+{
+   width: 35%;
+   position: relative;
+   left:  300px;
+   top: -85px;
+
+}
+
+#text
+{
+margin-top: 50px;
+}
+
+
+#aside { 
+//background: -o-linear-gradient(top, #012B55 0px, withe100%) transparent;
+border: 1px solid #000000;
+border-radius: 4px;
+box-shadow: 0px 0px 15px 5px #7D7E7D;
+float: top;
+font-size: 0.75em;
+margin-top:0px;
+margin: 30px auto 0px;
+min-height: 250px;
+padding: 0px 15px;
+width: 305px;
+}
+
+#ch
+{
+   color: gray;
+
+}
+
